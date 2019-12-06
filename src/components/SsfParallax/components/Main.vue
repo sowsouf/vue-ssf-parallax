@@ -19,7 +19,7 @@
   export default {
     name: "SsfParallax",
 
-    props: { image: { type: String, required: true } },
+    props: { image: { type: String, required: true }, power: { default: 2.6 } },
 
     created() {
       this.loaded = 0;
@@ -32,7 +32,7 @@
     watch: {
       loaded() {
         if (this.loaded > 0)
-          $(this.$refs.parallaxContainer).parallax(2.6)
+          $(this.$refs.parallaxContainer).parallax(this.power)
       }
     },
 
