@@ -1,7 +1,7 @@
 {
   "name": "ssf-parallax",
   "version": "1.0.3",
-  "description": "A Vue.js component for html input",
+  "description": "A Vue.js component for parallax component",
   "author": "Sofiane Akbly <sofiane.akbly@gmail.com>",
   "private": true,
   "main": "./dist/vue-ssf-parallax.common.js",
